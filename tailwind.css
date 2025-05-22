@@ -1,0 +1,155 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --all-devices-12-small-text-bold-font-family: "Atlas Grotesk", Helvetica;
+  --all-devices-12-small-text-bold-font-size: 12px;
+  --all-devices-12-small-text-bold-font-style: normal;
+  --all-devices-12-small-text-bold-font-weight: 500;
+  --all-devices-12-small-text-bold-letter-spacing: 0px;
+  --all-devices-12-small-text-bold-line-height: 150%;
+  --all-devices-14-paragraph-s-bold-font-family: "Atlas Grotesk", Helvetica;
+  --all-devices-14-paragraph-s-bold-font-size: 14px;
+  --all-devices-14-paragraph-s-bold-font-style: normal;
+  --all-devices-14-paragraph-s-bold-font-weight: 500;
+  --all-devices-14-paragraph-s-bold-letter-spacing: 0px;
+  --all-devices-14-paragraph-s-bold-line-height: 150%;
+  --all-devices-16-paragraph-m-bold-font-family: "Atlas Grotesk", Helvetica;
+  --all-devices-16-paragraph-m-bold-font-size: 16px;
+  --all-devices-16-paragraph-m-bold-font-style: normal;
+  --all-devices-16-paragraph-m-bold-font-weight: 500;
+  --all-devices-16-paragraph-m-bold-letter-spacing: 0px;
+  --all-devices-16-paragraph-m-bold-line-height: 150%;
+  --all-devices-16-paragraph-m-regular-font-family: "Atlas Grotesk", Helvetica;
+  --all-devices-16-paragraph-m-regular-font-size: 16px;
+  --all-devices-16-paragraph-m-regular-font-style: normal;
+  --all-devices-16-paragraph-m-regular-font-weight: 300;
+  --all-devices-16-paragraph-m-regular-letter-spacing: 0px;
+  --all-devices-16-paragraph-m-regular-line-height: 150%;
+  --all-devices-18-paragraph-l-bold-font-family: "Noto Sans JP", Helvetica;
+  --all-devices-18-paragraph-l-bold-font-size: 18px;
+  --all-devices-18-paragraph-l-bold-font-style: normal;
+  --all-devices-18-paragraph-l-bold-font-weight: 700;
+  --all-devices-18-paragraph-l-bold-letter-spacing: 0px;
+  --all-devices-18-paragraph-l-bold-line-height: 150%;
+  --all-devices-18-paragraph-l-regular-font-family: "Atlas Grotesk", Helvetica;
+  --all-devices-18-paragraph-l-regular-font-size: 18px;
+  --all-devices-18-paragraph-l-regular-font-style: normal;
+  --all-devices-18-paragraph-l-regular-font-weight: 300;
+  --all-devices-18-paragraph-l-regular-letter-spacing: 0px;
+  --all-devices-18-paragraph-l-regular-line-height: 150%;
+  --desktop-20-heading-s-bold-font-family: "Nib Pro", Helvetica;
+  --desktop-20-heading-s-bold-font-size: 20px;
+  --desktop-20-heading-s-bold-font-style: normal;
+  --desktop-20-heading-s-bold-font-weight: 600;
+  --desktop-20-heading-s-bold-letter-spacing: 0px;
+  --desktop-20-heading-s-bold-line-height: 125%;
+  --desktop-24-heading-m-bold-font-family: "Nib Pro", Helvetica;
+  --desktop-24-heading-m-bold-font-size: 24px;
+  --desktop-24-heading-m-bold-font-style: normal;
+  --desktop-24-heading-m-bold-font-weight: 600;
+  --desktop-24-heading-m-bold-letter-spacing: 0px;
+  --desktop-24-heading-m-bold-line-height: 125%;
+  --desktop-40-heading-XL-bold-font-family: "Nib Pro", Helvetica;
+  --desktop-40-heading-XL-bold-font-size: 40px;
+  --desktop-40-heading-XL-bold-font-style: normal;
+  --desktop-40-heading-XL-bold-font-weight: 600;
+  --desktop-40-heading-XL-bold-letter-spacing: 0px;
+  --desktop-40-heading-XL-bold-line-height: 125%;
+  --primary-400: rgba(130, 148, 115, 1);
+  --primarycream: rgba(253, 252, 244, 1);
+  --primarygreen-200: rgba(208, 216, 188, 1);
+  --primarygreen-300: rgba(171, 186, 167, 1);
+  --primarygreen-500: rgba(19, 63, 38, 1);
+  --secondarylime-200: rgba(223, 244, 159, 1);
+  --tertiarycream: rgba(253, 252, 244, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
